@@ -28,8 +28,8 @@
         ScreenSpot-Pro
       </button>
       <ul class="dropdown-menu" aria-labelledby="BenchmarkDropdown">
-        <li><a class="dropdown-item" href="/grounding-leaderboard/" id="ScreenSpot-Pro">ScreenSpot-Pro</a></li>
-        <li><a class="dropdown-item" href="/grounding-leaderboard/screenspot.html" id="ScreenSpot-v2">ScreenSpot-v2</a></li>
+        <li><a class="dropdown-item" href="./index.html" id="ScreenSpot-Pro">ScreenSpot-Pro</a></li>
+        <li><a class="dropdown-item" href="#" id="ScreenSpot-v2">ScreenSpot-v2</a></li>
       </ul>
     </div>
 
@@ -47,12 +47,30 @@
     
 
     <div class="d-flex justify-content-center mt-3">
-      <button id="btn_simple" class="btn btn-outline-primary mx-2">
-        <span style="font-size: 1.2rem;">🔍</span> Simple View
-      </button>
-      <button id="btn_detailed" class="btn btn-outline-success mx-2">
-        <span style="font-size: 1.2rem;">📊</span> Detailed View
-      </button>
+      <div class="btn-group" role="group" aria-label="View selection">
+        <input
+          type="radio"
+          class="btn-check"
+          name="view"
+          id="btn_simple"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-primary" for="btn_simple">
+          🔍 Simple View
+        </label>
+    
+        <input
+          type="radio"
+          class="btn-check"
+          name="view"
+          id="btn_detailed"
+          autocomplete="off"
+          checked
+        />
+        <label class="btn btn-outline-success" for="btn_detailed">
+          📊 Detailed View
+        </label>
+      </div>
     </div>
     
     <div class="container-fluid d-flex flex-row flex-nowrap">

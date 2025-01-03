@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <th colspan="3">Mobile</th>
                 <th colspan="3">Web</th>
                 <th rowspan="2" class="sortable" data-key="hallucination">Hallucination</th>
-                <th rowspan="2" class="sortable" data-key="overall_avg">Overall</th>
+                <th rowspan="2" class="sortable" data-key="overall_avg">Avg</th>
               </tr>
               <tr>
                 <th class="sortable" data-key="desktop_text">Text</th>

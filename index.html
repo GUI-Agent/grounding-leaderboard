@@ -28,42 +28,67 @@
         ScreenSpot-Pro
       </button>
       <ul class="dropdown-menu" aria-labelledby="BenchmarkDropdown">
-        <li><a class="dropdown-item" href="/grounding-leaderboard/" id="ScreenSpot-Pro">ScreenSpot-Pro</a></li>
-        <li><a class="dropdown-item" href="/grounding-leaderboard/screenspot.html" id="ScreenSpot-v2">ScreenSpot-v2</a></li>
+        <li><a class="dropdown-item" href="#" id="ScreenSpot-Pro">ScreenSpot-Pro</a></li>
+        <li><a class="dropdown-item" href="./screenspot.html" id="ScreenSpot-v2">ScreenSpot-v2</a></li>
       </ul>
     </div>
 
-    <h1 class="text-nowrap mt-5">🏆 ScreenSpot-Pro Leaderboard 🏆</h1>
-    <h3 class="fw-light text-nowrap">
-      <small id="warning">Benchmarking GUI performance for professional high-resolution computer use.<br /></small>
-    </h3>
-    <!-- <p>📢 News: Beyond correctness, how's their code efficiency? Checkout <a href="./evalperf.html">🚀EvalPerf</a>!</p> -->
+    <div class="d-flex align-items-center mt-5">
+      <img src="logo.png" alt="ScreenSpot-Pro Logo" class="me-3" style="width: 50px; height: auto;">
+      <h1 class="text-nowrap">ScreenSpot-Pro Leaderboard 🏆</h1>
+    </div>
+
     <div class="d-flex flex-row justify-content-center gap-3">
       <a href="https://github.com/"><img
           src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
           alt="github" class="img-fluid" /></a>
-      <a href="https://arxiv.org/abs/2404.09486"><img
-          src="https://img.shields.io/badge/arXiv-2412?style=for-the-badge&logo=arxiv&logoColor=white" alt="paper"
+      <a href="https://likaixin2000.github.io/papers/ScreenSpot_Pro.pdf"><img
+          src="https://img.shields.io/badge/arXiv-paper-b31b1b.svg?style=for-the-badge" alt="paper"
           class="img-fluid" /></a>
+      <a href="https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"> <img src="https://img.shields.io/badge/Dataset-blue.svg?style=for-the-badge" alt="dataset"
+          class="img-fluid" /></a>
+
     </div>
     
+    <h3 class="fw-light text-nowrap">
+      <small id="warning">Benchmarking GUI performance for professional high-resolution computer use.<br /></small>
+    </h3>
+    
     <div class="d-flex justify-content-center mt-3">
-      <button id="btn_simple" class="btn btn-outline-primary mx-2">
-        <span style="font-size: 1.2rem;">🔍</span> Simple View
-      </button>
-      <button id="btn_detailed" class="btn btn-outline-success mx-2">
-        <span style="font-size: 1.2rem;">📊</span> Detailed View
-      </button>
+      <div class="btn-group" role="group" aria-label="View selection">
+        <input
+          type="radio"
+          class="btn-check"
+          name="view"
+          id="btn_simple"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-primary" for="btn_simple">
+          🔍 Simple View
+        </label>
+    
+        <input
+          type="radio"
+          class="btn-check"
+          name="view"
+          id="btn_detailed"
+          autocomplete="off"
+          checked
+        />
+        <label class="btn btn-outline-success" for="btn_detailed">
+          📊 Detailed View
+        </label>
+      </div>
     </div>
     
     <div class="container-fluid d-flex flex-row flex-nowrap">
       <div class="container-fluid d-flex flex-column align-items-center">
-        <!-- <label for="plused" class="text-success mb-3">⚡EvalPlus Tests⚡</label> -->
         <table id="plused"
           class="table table-responsive table-striped table-bordered flex-shrink-1 border border-success border-3">
         </table>
       </div>
     </div>
+
     <div id="notes">
       <h3>📝 Notes</h3>
       <div class="inline-block mt-3">
@@ -81,10 +106,321 @@
         </ul>
       </div>
     </div>
+
+      <h3 class="text-center" data-bs-toggle="collapse" data-bs-target="#software-list"><span class="ms-2" id="collapse-icon">▶</span> 📂 List of Software</h3>
+      <div id="software-list" class="table-responsive collapse">
+        <table class="table table-bordered table-striped table-hover align-middle">
+          <thead>
+              <tr>
+                  <th>Icon</th>
+                  <th>Abbr.</th>
+                  <th>Application</th>
+                  <th>Edition & Version</th>
+                  <th>OS</th>
+                  <th>Icons</th>
+                  <th>Texts</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr class="table-primary text-center">
+                  <td colspan="7"><strong>Development and Programming</strong></td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/vscode.svg" height="20"></td>
+                  <td>VSC</td>
+                  <td>Visual Studio Code</td>
+                  <td>1.95</td>
+                  <td>macOS</td>
+                  <td>22</td>
+                  <td>33</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/pycharm.svg" height="20"></td>
+                  <td>PyC</td>
+                  <td>PyCharm</td>
+                  <td>2023.3</td>
+                  <td>macOS</td>
+                  <td>38</td>
+                  <td>40</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/android_studio.svg" height="20"></td>
+                  <td>AS</td>
+                  <td>Android Studio</td>
+                  <td>2022.2</td>
+                  <td>macOS</td>
+                  <td>44</td>
+                  <td>36</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/quartus.png" height="20"></td>
+                  <td>Qrs</td>
+                  <td>Quartus</td>
+                  <td>II 13.0 SP1</td>
+                  <td>Windows</td>
+                  <td>32</td>
+                  <td>13</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/vmware.svg" height="20"></td>
+                  <td>VM</td>
+                  <td>VMware</td>
+                  <td>Fusion 13.6.1</td>
+                  <td>macOS</td>
+                  <td>9</td>
+                  <td>32</td>
+              </tr>
+              <tr class="table-primary text-center">
+                  <td colspan="7"><strong>Creative</strong></td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/photoshop.svg" height="20"></td>
+                  <td>PS</td>
+                  <td>Photoshop</td>
+                  <td>2020</td>
+                  <td>Windows</td>
+                  <td>25</td>
+                  <td>26</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/premiere.svg" height="20"></td>
+                  <td>PR</td>
+                  <td>Premiere</td>
+                  <td>2025</td>
+                  <td>Windows</td>
+                  <td>24</td>
+                  <td>28</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/illustrator.svg" height="20"></td>
+                  <td>AI</td>
+                  <td>Adobe Illustrator</td>
+                  <td>2025</td>
+                  <td>Windows</td>
+                  <td>19</td>
+                  <td>12</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/blender.svg" height="20"></td>
+                  <td>Bl</td>
+                  <td>Blender</td>
+                  <td>4.0.2</td>
+                  <td>Windows</td>
+                  <td>15</td>
+                  <td>56</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/fl_studio.png" height="20"></td>
+                  <td>FL</td>
+                  <td>FruitLoops Studio</td>
+                  <td>20.8.3</td>
+                  <td>Windows</td>
+                  <td>31</td>
+                  <td>26</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/ue.svg" height="20"></td>
+                  <td>UE</td>
+                  <td>Unreal Engine</td>
+                  <td>5.4.4</td>
+                  <td>Windows</td>
+                  <td>6</td>
+                  <td>29</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/davinci_resolve.png" height="20"></td>
+                  <td>DR</td>
+                  <td>DaVinci Resolve</td>
+                  <td>19.0.3</td>
+                  <td>macOS</td>
+                  <td>23</td>
+                  <td>21</td>
+              </tr>
+              <tr class="table-primary text-center">
+                  <td colspan="7"><strong>CAD and Engineering</strong></td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/autocad.png" height="20"></td>
+                  <td>CAD</td>
+                  <td>AutoCAD</td>
+                  <td>Mechanical 2019</td>
+                  <td>Windows</td>
+                  <td>7</td>
+                  <td>27</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/icons8-solidworks-480.png" height="20"></td>
+                  <td>SW</td>
+                  <td>SolidWorks</td>
+                  <td>Premium 2018 x64</td>
+                  <td>Windows</td>
+                  <td>14</td>
+                  <td>63</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/inventor.png" height="20"></td>
+                  <td>Inv</td>
+                  <td>Inventor</td>
+                  <td>Professional 2019</td>
+                  <td>Windows</td>
+                  <td>11</td>
+                  <td>59</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/vivado.png" height="20"></td>
+                  <td>Vvd</td>
+                  <td>Vivado</td>
+                  <td>2018.3</td>
+                  <td>Windows</td>
+                  <td>32</td>
+                  <td>48</td>
+              </tr>
+              <tr class="table-primary text-center">
+                  <td colspan="7"><strong>Scientific and Analytical</strong></td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/matlab.png" height="20"></td>
+                  <td>MAT</td>
+                  <td>MATLAB</td>
+                  <td>R2022b</td>
+                  <td>Windows</td>
+                  <td>19</td>
+                  <td>74</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/origin.png" height="20"></td>
+                  <td>Org</td>
+                  <td>Origin</td>
+                  <td>2018</td>
+                  <td>Windows</td>
+                  <td>43</td>
+                  <td>19</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/stata.webp" height="20"></td>
+                  <td>Stt</td>
+                  <td>Stata</td>
+                  <td>SE 16</td>
+                  <td>Windows</td>
+                  <td>41</td>
+                  <td>8</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/eviews.png" height="20"></td>
+                  <td>Evw</td>
+                  <td>EViews</td>
+                  <td>10</td>
+                  <td>Windows</td>
+                  <td>7</td>
+                  <td>43</td>
+              </tr>
+              <tr class="table-primary text-center">
+                  <td colspan="7"><strong>Office Suite</strong></td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/word.svg" height="20"></td>
+                  <td>Wrd</td>
+                  <td>Word</td>
+                  <td>Office 365 (16.90)</td>
+                  <td>macOS</td>
+                  <td>15</td>
+                  <td>69</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/powerpoint.svg" height="20"></td>
+                  <td>PPT</td>
+                  <td>PowerPoint</td>
+                  <td>Home and Student 2019</td>
+                  <td>Windows</td>
+                  <td>25</td>
+                  <td>57</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/excel.svg" height="20"></td>
+                  <td>Exc</td>
+                  <td>Excel</td>
+                  <td>Office 365 (16.82)</td>
+                  <td>macOS</td>
+                  <td>13</td>
+                  <td>51</td>
+              </tr>
+              <tr class="table-primary text-center">
+                  <td colspan="7"><strong>Operating System Commons</strong></td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/windows.svg" height="20"></td>
+                  <td>Win</td>
+                  <td>Windows</td>
+                  <td>11 Professional</td>
+                  <td>-</td>
+                  <td>47</td>
+                  <td>34</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/macos.svg" height="20"></td>
+                  <td>mac</td>
+                  <td>macOS</td>
+                  <td>Sonoma 14.5</td>
+                  <td>-</td>
+                  <td>23</td>
+                  <td>42</td>
+              </tr>
+              <tr>
+                  <td><img src="./assets/imgs/linux.svg" height="20"></td>
+                  <td>Lnx</td>
+                  <td>Linux</td>
+                  <td>Ubuntu 24.04</td>
+                  <td>-</td>
+                  <td>19</td>
+                  <td>31</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
     
+    <!-- Citation -->
+    <div class="container-fluid d-flex flex-column align-items-center gap-4 mt-5">
+      <h3>📜 Citation</h3>
+      <p class="text-muted">
+        If you find this work useful, please consider citing:
+      </p>
+      <div class="bg-light border rounded p-3 w-75">
+        <code>
+          @misc{li2024screenspot-pro,<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;title={ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use},<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;author={Kaixin Li and Ziyang Meng and Hongzhan Lin and Ziyang Luo and Yuchen Tian and Jing Ma and Zhiyong Huang and Tat-Seng Chua},<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;year={2025},<br>
+          }
+      </code>
+    </div>
+</div>
   </div>
 
+
+
+<div></div>
+<!--Vertical placeholder-->
+&nbsp;&nbsp;
+
+
+
+
   <script src="leaderboard.js"></script>
+  <script>
+    // Update the arrow when collapse state changes
+    const collapseElement = document.getElementById('software-list');
+    const collapseIcon = document.getElementById('collapse-icon');
+  
+    collapseElement.addEventListener('shown.bs.collapse', function () {
+      collapseIcon.textContent = '▼'; // when expanded
+    });
+  
+    collapseElement.addEventListener('hidden.bs.collapse', function () {
+      collapseIcon.textContent = '▶'; //  when collapsed
+    });
+  </script>
 </body>
 
 </html>

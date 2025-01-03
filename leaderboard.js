@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <th class="table-header-group sortable" data-key="model_name">Model</th>
                     ${Object.keys(categories).map(category => 
                         `<th class="table-header-group" colspan="${categories[category].length}">${category}</th>`).join("")}
-                    <th class="table-header-group sortable" data-key="overall_avg">Overall Avg</th>
+                    <th class="table-header-group sortable" data-key="overall_avg">Avg</th>
                 </tr>
                 <tr>
                     <th></th>
