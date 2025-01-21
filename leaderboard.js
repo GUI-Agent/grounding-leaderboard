@@ -125,18 +125,35 @@ document.addEventListener("DOMContentLoaded", function () {
         // Create table rows for simple mode
         tableBody = data.map(([modelName, modelData]) => {
             const overallAvg = (modelData.results.overall.avg * 100).toFixed(1);
+            
+            // Hardcoded category names and their corresponding keys in the data
+            const categoryKeys = {
+                Development: "Dev",
+                CAD: "CAD",
+                Creative: "Creative",
+                Scientific: "Scientific",
+                Office: "Office",
+                "Operating Systems": "OS"
+            };
 
             // Calculate average for each category (group)
-            const categoryAverages = Object.keys(categories).map(category => {
-                const groupData = categories[category];
-                const categoryAvg = groupData.map(software => {
-                    const appData = modelData.results.application[software];
-                    return appData ? appData.avg : 0;  // Use 0 if no data
-                });
-                // Average the group values
-                const groupAvg = categoryAvg.length ? (categoryAvg.reduce((sum, value) => sum + value, 0) / categoryAvg.length) : 0;
-                return (groupAvg * 100).toFixed(1);  // Convert to percentage
+            const categoryAverages = Object.keys(categoryKeys).map(categoryName => {
+                const key = categoryKeys[categoryName]; // Get the key from the mapping
+                const groupData = modelData.results.group[key];
+                const groupAvg = (groupData.avg * 100).toFixed(1); // Convert to percentage and format to 1 decimal place.
+                return groupAvg; // Return the formatted group average.
             });
+            // Calculate average for each category (group)
+            // const categoryAverages = Object.keys(categories).map(category => {
+            //     const groupData = categories[category];
+            //     const categoryAvg = groupData.map(software => {
+            //         const appData = modelData.results.application[software];
+            //         return appData ? appData.avg : 0;  // Use 0 if no data
+            //     });
+            //     // Average the group values
+            //     const groupAvg = categoryAvg.length ? (categoryAvg.reduce((sum, value) => sum + value, 0) / categoryAvg.length) : 0;
+            //     return (groupAvg * 100).toFixed(1);  // Convert to percentage
+            // });
 
             return [
                 modelName,          // Model Name
