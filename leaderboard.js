@@ -129,8 +129,8 @@ document.addEventListener("DOMContentLoaded", function () {
             // Hardcoded category names and their corresponding keys in the data
             const categoryKeys = {
                 Development: "Dev",
-                CAD: "CAD",
                 Creative: "Creative",
+                CAD: "CAD",
                 Scientific: "Scientific",
                 Office: "Office",
                 "Operating Systems": "OS"
