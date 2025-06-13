@@ -125,6 +125,11 @@ document.addEventListener("DOMContentLoaded", function () {
         // Create table rows for simple mode
         tableBody = data.map(([modelName, modelData]) => {
             const overallAvg = (modelData.results.overall.avg * 100).toFixed(1);
+
+            // If modelData has a non-empty link, make modelName a <a> tag
+            if (modelData.link) {
+                modelName = `<a href="${modelData.link}" target="_blank" class="model-link">${modelName}</a>`;
+            }
             
             // Hardcoded category names and their corresponding keys in the data
             const categoryKeys = {
@@ -232,6 +237,11 @@ document.addEventListener("DOMContentLoaded", function () {
         // Create table rows for detailed mode
         tableBody = data.map(([modelName, modelData]) => {
             const overallAvg = (modelData.results.overall.avg * 100).toFixed(1) + "%";
+
+            // If modelData has a non-empty link, make modelName a <a> tag
+            if (modelData.link) {
+                modelName = `<a href="${modelData.link}" target="_blank" class="model-link">${modelName}</a>`;
+            }
             
             const softwareValues = Object.values(categories).flat().map(software => {
                 const appData = modelData.results.application[software];

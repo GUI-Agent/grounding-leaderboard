@@ -1,6 +1,531 @@
 {
+    "Grounding-R1-7B": {
+        "link": "https://huggingface.co/blog/HelloKKMe/grounding-r1",
+        "description": "",
+        "results": {
+            "group": {
+                "Dev": {
+                    "icon": 0.20689655172413793,
+                    "text": 0.6688311688311688,
+                    "avg": 0.44481605351170567
+                },
+                "Creative": {
+                    "icon": 0.18181818181818182,
+                    "text": 0.6262626262626263,
+                    "avg": 0.4398826979472141
+                },
+                "CAD": {
+                    "icon": 0.171875,
+                    "text": 0.5329949238578681,
+                    "avg": 0.4444444444444444
+                },
+                "Scientific": {
+                    "icon": 0.3181818181818182,
+                    "text": 0.7638888888888888,
+                    "avg": 0.5708661417322834
+                },
+                "Office": {
+                    "icon": 0.5094339622641509,
+                    "text": 0.8248587570621468,
+                    "avg": 0.7521739130434782
+                },
+                "OS": {
+                    "icon": 0.25842696629213485,
+                    "text": 0.48598130841121495,
+                    "avg": 0.3826530612244898
+                }
+            },
+            "application": {
+                "premiere": {
+                    "icon": 0.25,
+                    "text": 0.5357142857142857,
+                    "avg": 0.40384615384615385
+                },
+                "illustrator": {
+                    "icon": 0.0,
+                    "text": 0.3333333333333333,
+                    "avg": 0.12903225806451613
+                },
+                "stata": {
+                    "icon": 0.2682926829268293,
+                    "text": 0.5,
+                    "avg": 0.30612244897959184
+                },
+                "davinci": {
+                    "icon": 0.17391304347826086,
+                    "text": 0.7142857142857143,
+                    "avg": 0.4318181818181818
+                },
+                "vmware": {
+                    "icon": 0.2222222222222222,
+                    "text": 0.65625,
+                    "avg": 0.5609756097560976
+                },
+                "matlab": {
+                    "icon": 0.47368421052631576,
+                    "text": 0.7162162162162162,
+                    "avg": 0.6666666666666666
+                },
+                "eviews": {
+                    "icon": 1.0,
+                    "text": 0.9534883720930233,
+                    "avg": 0.96
+                },
+                "blender": {
+                    "icon": 0.3333333333333333,
+                    "text": 0.5357142857142857,
+                    "avg": 0.49295774647887325
+                },
+                "pycharm": {
+                    "icon": 0.21052631578947367,
+                    "text": 0.675,
+                    "avg": 0.44871794871794873
+                },
+                "windows_common": {
+                    "icon": 0.23404255319148937,
+                    "text": 0.29411764705882354,
+                    "avg": 0.25925925925925924
+                },
+                "vscode": {
+                    "icon": 0.45454545454545453,
+                    "text": 0.6363636363636364,
+                    "avg": 0.5636363636363636
+                },
+                "photoshop": {
+                    "icon": 0.2,
+                    "text": 0.8461538461538461,
+                    "avg": 0.5294117647058824
+                },
+                "fruitloops": {
+                    "icon": 0.12903225806451613,
+                    "text": 0.6923076923076923,
+                    "avg": 0.38596491228070173
+                },
+                "inventor": {
+                    "icon": 0.0,
+                    "text": 0.4745762711864407,
+                    "avg": 0.4
+                },
+                "origin": {
+                    "icon": 0.18604651162790697,
+                    "text": 0.631578947368421,
+                    "avg": 0.3225806451612903
+                },
+                "solidworks": {
+                    "icon": 0.0,
+                    "text": 0.4126984126984127,
+                    "avg": 0.33766233766233766
+                },
+                "unreal_engine": {
+                    "icon": 0.3333333333333333,
+                    "text": 0.6896551724137931,
+                    "avg": 0.6285714285714286
+                },
+                "linux_common": {
+                    "icon": 0.3157894736842105,
+                    "text": 0.5483870967741935,
+                    "avg": 0.46
+                },
+                "word": {
+                    "icon": 0.6666666666666666,
+                    "text": 0.9420289855072463,
+                    "avg": 0.8928571428571429
+                },
+                "android_studio": {
+                    "icon": 0.1590909090909091,
+                    "text": 0.6388888888888888,
+                    "avg": 0.375
+                },
+                "quartus": {
+                    "icon": 0.09375,
+                    "text": 0.8461538461538461,
+                    "avg": 0.3111111111111111
+                },
+                "powerpoint": {
+                    "icon": 0.48,
+                    "text": 0.8070175438596491,
+                    "avg": 0.7073170731707317
+                },
+                "autocad": {
+                    "icon": 0.14285714285714285,
+                    "text": 0.5185185185185185,
+                    "avg": 0.4411764705882353
+                },
+                "macos_common": {
+                    "icon": 0.2608695652173913,
+                    "text": 0.5952380952380952,
+                    "avg": 0.47692307692307695
+                },
+                "excel": {
+                    "icon": 0.38461538461538464,
+                    "text": 0.6862745098039216,
+                    "avg": 0.625
+                },
+                "vivado": {
+                    "icon": 0.3125,
+                    "text": 0.7708333333333334,
+                    "avg": 0.5875
+                }
+            },
+            "overall": {
+                "icon": 0.25165562913907286,
+                "text": 0.6550665301944729,
+                "avg": 0.5009487666034156
+            }
+        }
+    },
+    "Grounding-R1-32B": {
+        "link": "https://huggingface.co/blog/HelloKKMe/grounding-r1",
+        "description": "",
+        "results": {
+            "group": {
+                "Dev": {
+                    "icon": 0.2827586206896552,
+                    "text": 0.8246753246753247,
+                    "avg": 0.5618729096989966
+                },
+                "Creative": {
+                    "icon": 0.14685314685314685,
+                    "text": 0.6919191919191919,
+                    "avg": 0.4633431085043988
+                },
+                "CAD": {
+                    "icon": 0.234375,
+                    "text": 0.4365482233502538,
+                    "avg": 0.38697318007662834
+                },
+                "Scientific": {
+                    "icon": 0.3181818181818182,
+                    "text": 0.7986111111111112,
+                    "avg": 0.5905511811023622
+                },
+                "Office": {
+                    "icon": 0.4339622641509434,
+                    "text": 0.807909604519774,
+                    "avg": 0.7217391304347827
+                },
+                "OS": {
+                    "icon": 0.3258426966292135,
+                    "text": 0.7009345794392523,
+                    "avg": 0.5306122448979592
+                }
+            },
+            "application": {
+                "davinci": {
+                    "icon": 0.17391304347826086,
+                    "text": 0.8571428571428571,
+                    "avg": 0.5
+                },
+                "fruitloops": {
+                    "icon": 0.12903225806451613,
+                    "text": 0.7692307692307693,
+                    "avg": 0.42105263157894735
+                },
+                "autocad": {
+                    "icon": 0.0,
+                    "text": 0.25925925925925924,
+                    "avg": 0.20588235294117646
+                },
+                "pycharm": {
+                    "icon": 0.3684210526315789,
+                    "text": 0.775,
+                    "avg": 0.5769230769230769
+                },
+                "vivado": {
+                    "icon": 0.40625,
+                    "text": 0.8333333333333334,
+                    "avg": 0.6625
+                },
+                "unreal_engine": {
+                    "icon": 0.16666666666666666,
+                    "text": 0.7931034482758621,
+                    "avg": 0.6857142857142857
+                },
+                "solidworks": {
+                    "icon": 0.14285714285714285,
+                    "text": 0.49206349206349204,
+                    "avg": 0.42857142857142855
+                },
+                "blender": {
+                    "icon": 0.06666666666666667,
+                    "text": 0.5178571428571429,
+                    "avg": 0.4225352112676056
+                },
+                "vmware": {
+                    "icon": 0.2222222222222222,
+                    "text": 0.84375,
+                    "avg": 0.7073170731707317
+                },
+                "windows_common": {
+                    "icon": 0.23404255319148937,
+                    "text": 0.5588235294117647,
+                    "avg": 0.37037037037037035
+                },
+                "android_studio": {
+                    "icon": 0.3181818181818182,
+                    "text": 0.8333333333333334,
+                    "avg": 0.55
+                },
+                "premiere": {
+                    "icon": 0.2916666666666667,
+                    "text": 0.5714285714285714,
+                    "avg": 0.4423076923076923
+                },
+                "macos_common": {
+                    "icon": 0.2608695652173913,
+                    "text": 0.8095238095238095,
+                    "avg": 0.6153846153846154
+                },
+                "powerpoint": {
+                    "icon": 0.52,
+                    "text": 0.8070175438596491,
+                    "avg": 0.7195121951219512
+                },
+                "stata": {
+                    "icon": 0.36585365853658536,
+                    "text": 1.0,
+                    "avg": 0.46938775510204084
+                },
+                "matlab": {
+                    "icon": 0.42105263157894735,
+                    "text": 0.7837837837837838,
+                    "avg": 0.7096774193548387
+                },
+                "quartus": {
+                    "icon": 0.09375,
+                    "text": 1.0,
+                    "avg": 0.35555555555555557
+                },
+                "linux_common": {
+                    "icon": 0.631578947368421,
+                    "text": 0.7096774193548387,
+                    "avg": 0.68
+                },
+                "illustrator": {
+                    "icon": 0.05263157894736842,
+                    "text": 0.6666666666666666,
+                    "avg": 0.2903225806451613
+                },
+                "vscode": {
+                    "icon": 0.36363636363636365,
+                    "text": 0.7878787878787878,
+                    "avg": 0.6181818181818182
+                },
+                "photoshop": {
+                    "icon": 0.12,
+                    "text": 0.8846153846153846,
+                    "avg": 0.5098039215686274
+                },
+                "excel": {
+                    "icon": 0.46153846153846156,
+                    "text": 0.6470588235294118,
+                    "avg": 0.609375
+                },
+                "origin": {
+                    "icon": 0.11627906976744186,
+                    "text": 0.47368421052631576,
+                    "avg": 0.22580645161290322
+                },
+                "eviews": {
+                    "icon": 1.0,
+                    "text": 0.9302325581395349,
+                    "avg": 0.94
+                },
+                "inventor": {
+                    "icon": 0.0,
+                    "text": 0.13559322033898305,
+                    "avg": 0.11428571428571428
+                },
+                "word": {
+                    "icon": 0.26666666666666666,
+                    "text": 0.927536231884058,
+                    "avg": 0.8095238095238095
+                }
+            },
+            "overall": {
+                "icon": 0.271523178807947,
+                "text": 0.6990788126919141,
+                "avg": 0.5357368753953194
+            }
+        }
+    },
+    "Grounding-R1-72B": {
+        "link": "https://huggingface.co/blog/HelloKKMe/grounding-r1",
+        "description": "",
+        "results": {
+            "group": {
+                "Dev": {
+                    "icon": 0.3310344827586207,
+                    "text": 0.7987012987012987,
+                    "avg": 0.5719063545150501
+                },
+                "Creative": {
+                    "icon": 0.20279720279720279,
+                    "text": 0.7323232323232324,
+                    "avg": 0.5102639296187683
+                },
+                "CAD": {
+                    "icon": 0.28125,
+                    "text": 0.5685279187817259,
+                    "avg": 0.49808429118773945
+                },
+                "Scientific": {
+                    "icon": 0.38181818181818183,
+                    "text": 0.8194444444444444,
+                    "avg": 0.6299212598425197
+                },
+                "Office": {
+                    "icon": 0.49056603773584906,
+                    "text": 0.8531073446327684,
+                    "avg": 0.7695652173913043
+                },
+                "OS": {
+                    "icon": 0.3707865168539326,
+                    "text": 0.7383177570093458,
+                    "avg": 0.5714285714285714
+                }
+            },
+            "application": {
+                "blender": {
+                    "icon": 0.3333333333333333,
+                    "text": 0.6785714285714286,
+                    "avg": 0.6056338028169014
+                },
+                "powerpoint": {
+                    "icon": 0.44,
+                    "text": 0.8771929824561403,
+                    "avg": 0.7439024390243902
+                },
+                "macos_common": {
+                    "icon": 0.34782608695652173,
+                    "text": 0.8571428571428571,
+                    "avg": 0.676923076923077
+                },
+                "davinci": {
+                    "icon": 0.21739130434782608,
+                    "text": 0.8571428571428571,
+                    "avg": 0.5227272727272727
+                },
+                "premiere": {
+                    "icon": 0.16666666666666666,
+                    "text": 0.6785714285714286,
+                    "avg": 0.4423076923076923
+                },
+                "windows_common": {
+                    "icon": 0.3404255319148936,
+                    "text": 0.5294117647058824,
+                    "avg": 0.41975308641975306
+                },
+                "android_studio": {
+                    "icon": 0.4090909090909091,
+                    "text": 0.8055555555555556,
+                    "avg": 0.5875
+                },
+                "unreal_engine": {
+                    "icon": 0.16666666666666666,
+                    "text": 0.7931034482758621,
+                    "avg": 0.6857142857142857
+                },
+                "stata": {
+                    "icon": 0.4634146341463415,
+                    "text": 0.75,
+                    "avg": 0.5102040816326531
+                },
+                "word": {
+                    "icon": 0.5333333333333333,
+                    "text": 0.9130434782608695,
+                    "avg": 0.8452380952380952
+                },
+                "origin": {
+                    "icon": 0.18604651162790697,
+                    "text": 0.631578947368421,
+                    "avg": 0.3225806451612903
+                },
+                "fruitloops": {
+                    "icon": 0.1935483870967742,
+                    "text": 0.5769230769230769,
+                    "avg": 0.3684210526315789
+                },
+                "matlab": {
+                    "icon": 0.42105263157894735,
+                    "text": 0.7972972972972973,
+                    "avg": 0.7204301075268817
+                },
+                "vmware": {
+                    "icon": 0.2222222222222222,
+                    "text": 0.90625,
+                    "avg": 0.7560975609756098
+                },
+                "pycharm": {
+                    "icon": 0.34210526315789475,
+                    "text": 0.7,
+                    "avg": 0.5256410256410257
+                },
+                "quartus": {
+                    "icon": 0.09375,
+                    "text": 0.8461538461538461,
+                    "avg": 0.3111111111111111
+                },
+                "inventor": {
+                    "icon": 0.2727272727272727,
+                    "text": 0.559322033898305,
+                    "avg": 0.5142857142857142
+                },
+                "autocad": {
+                    "icon": 0.0,
+                    "text": 0.37037037037037035,
+                    "avg": 0.29411764705882354
+                },
+                "solidworks": {
+                    "icon": 0.14285714285714285,
+                    "text": 0.47619047619047616,
+                    "avg": 0.4155844155844156
+                },
+                "illustrator": {
+                    "icon": 0.0,
+                    "text": 0.5833333333333334,
+                    "avg": 0.22580645161290322
+                },
+                "excel": {
+                    "icon": 0.5384615384615384,
+                    "text": 0.7450980392156863,
+                    "avg": 0.703125
+                },
+                "vscode": {
+                    "icon": 0.5454545454545454,
+                    "text": 0.7878787878787878,
+                    "avg": 0.6909090909090909
+                },
+                "eviews": {
+                    "icon": 1.0,
+                    "text": 0.9534883720930233,
+                    "avg": 0.96
+                },
+                "photoshop": {
+                    "icon": 0.32,
+                    "text": 0.9615384615384616,
+                    "avg": 0.6470588235294118
+                },
+                "vivado": {
+                    "icon": 0.40625,
+                    "text": 0.8125,
+                    "avg": 0.65
+                },
+                "linux_common": {
+                    "icon": 0.47368421052631576,
+                    "text": 0.8064516129032258,
+                    "avg": 0.68
+                }
+            },
+            "overall": {
+                "icon": 0.32450331125827814,
+                "text": 0.7451381780962129,
+                "avg": 0.5844402277039848
+            }
+        }
+    },
     "SE-GUI-3B": {
-        "link": "",
+        "link": "https://github.com/YXB-NKU/SE-GUI",
         "description": "",
         "results": {
             "group": {
@@ -175,7 +700,7 @@
         }
     },
     "SE-GUI-7B": {
-        "link": "",
+        "link": "https://github.com/YXB-NKU/SE-GUI",
         "description": "",
         "results": {
             "group": {
@@ -350,7 +875,7 @@
         }
     },
     "UI-TARS-1.5": {
-        "link": "",
+        "link": "https://github.com/bytedance/UI-TARS",
         "description": "",
         "results": {
             "group": {
@@ -525,7 +1050,7 @@
         }
     },
     "Seed-1.5-VL": {
-        "link": "",
+        "link": "https://seed.bytedance.com/en/tech/seed1_5_vl",
         "description": "",
         "results": {
             "group": {
@@ -700,7 +1225,7 @@
         }
     },
     "Qwen2.5-VL-32B-Instruct": {
-        "link": "",
+        "link": "https://arxiv.org/pdf/2502.13923",
         "description": "",
         "results": {
             "group": {
@@ -875,7 +1400,7 @@
         }
     },
     "Qwen2.5-VL-7B-Instruct": {
-        "link": "",
+        "link": "https://arxiv.org/pdf/2502.13923",
         "description": "",
         "results": {
             "group": {
@@ -1050,7 +1575,7 @@
         }
     },
     "Qwen2.5-VL-3B-Instruct": {
-        "link": "",
+        "link": "https://arxiv.org/pdf/2502.13923",
         "description": "",
         "results": {
             "group": {
@@ -1225,7 +1750,7 @@
         }
     },
     "Qwen2.5-VL-72B-Instruct": {
-        "link": "",
+        "link": "https://arxiv.org/pdf/2502.13923",
         "description": "",
         "results": {
             "group": {
@@ -1400,7 +1925,7 @@
         }
     },
     "Qwen2-VL-72B-Instruct": {
-        "link": "",
+        "link": "https://arxiv.org/abs/2409.12191",
         "description": "",
         "results": {
             "group": {
@@ -1575,7 +2100,7 @@
         }
     },
     "UGround-v1-72B": {
-        "link": "",
+        "link": "https://osu-nlp-group.github.io/UGround/",
         "description": "",
         "results": {
             "group": {
@@ -1750,7 +2275,7 @@
         }
     },
     "UI-TARS-2B": {
-        "link": "",
+        "link": "https://github.com/bytedance/UI-TARS",
         "description": "",
         "results": {
             "group": {
@@ -1925,7 +2450,7 @@
         }
     },
     "UI-TARS-7B": {
-        "link": "",
+        "link": "https://github.com/bytedance/UI-TARS",
         "description": "",
         "results": {
             "group": {
@@ -2100,7 +2625,7 @@
         }
     },
     "UI-TARS-72B": {
-        "link": "",
+        "link": "https://github.com/bytedance/UI-TARS",
         "description": "",
         "results": {
             "group": {
@@ -2450,7 +2975,7 @@
         }
     },
     "Aguvis-7B": {
-        "link": "",
+        "link": "https://github.com/xlang-ai/aguvis",
         "description": "",
         "results": {
             "group": {
@@ -2625,7 +3150,7 @@
         }
     },
     "UGround-V1-7B": {
-        "link": "",
+        "link": "https://github.com/OSU-NLP-Group/UGround",
         "description": "",
         "results": {
             "group": {
@@ -2800,7 +3325,7 @@
         }
     },
     "UGround-V1-2B": {
-        "link": "",
+        "link": "https://github.com/OSU-NLP-Group/UGround",
         "description": "",
         "results": {
             "group": {
@@ -2975,7 +3500,7 @@
         }
     },
     "AriaUI (MOE, 3.9B active)": {
-        "link": "",
+        "link": "https://ariaui.github.io/",
         "description": "",
         "results": {
             "group": {
@@ -3150,7 +3675,7 @@
         }
     },
     "MiniCPM-V (7B)": {
-        "link": "",
+        "link": "https://github.com/OpenBMB/MiniCPM-o",
         "description": "",
         "results": {
             "group": {
@@ -3325,7 +3850,7 @@
         }
     },
     "ShowUI (2B)": {
-        "link": "",
+        "link": "https://github.com/showlab/ShowUI",
         "description": "",
         "results": {
             "group": {
@@ -3675,7 +4200,7 @@
         }
     },
     "SeeClick (7B)": {
-        "link": "",
+        "link": "https://github.com/njucckevin/SeeClick",
         "description": "",
         "results": {
             "group": {
@@ -3850,7 +4375,7 @@
         }
     },
     "OS-Atlas-7B": {
-        "link": "",
+        "link": "https://osatlas.github.io/",
         "description": "",
         "results": {
             "group": {
@@ -4025,7 +4550,7 @@
         }
     },
     "Qwen-VL-7B": {
-        "link": "",
+        "link": "https://arxiv.org/pdf/2308.12966",
         "description": "",
         "results": {
             "group": {
@@ -4200,7 +4725,7 @@
         }
     },
     "Qwen2-VL-7B": {
-        "link": "",
+        "link": "https://arxiv.org/pdf/2409.12191",
         "description": "",
         "results": {
             "group": {
@@ -4375,7 +4900,7 @@
         }
     },
     "UGround-7B": {
-        "link": "",
+        "link": "https://osu-nlp-group.github.io/UGround/",
         "description": "",
         "results": {
             "group": {
@@ -4550,7 +5075,7 @@
         }
     },
     "CogAgent (18B)": {
-        "link": "",
+        "link": "https://github.com/THUDM/CogAgent",
         "description": "",
         "results": {
             "group": {
@@ -4725,7 +5250,7 @@
         }
     },
     "OS-Atlas-4B": {
-        "link": "",
+        "link": "https://osatlas.github.io/",
         "description": "",
         "results": {
             "group": {
