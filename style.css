@@ -109,6 +109,8 @@ table td.table-compact {
 }
 
 th.table-header-group{
+  background-color: #e6f7ff;
+  /* opacity: 1; */
   font-size: 12px;
 }
 
