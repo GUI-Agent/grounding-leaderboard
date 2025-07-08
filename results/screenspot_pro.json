@@ -1049,7 +1049,7 @@
             }
         }
     },
-    "Grounding-R1-7B": {
+    "GTA1-7B": {
         "link": "https://huggingface.co/blog/HelloKKMe/grounding-r1",
         "description": "",
         "results": {
@@ -1224,7 +1224,7 @@
             }
         }
     },
-    "Grounding-R1-32B": {
+    "GTA1-32B": {
         "link": "https://huggingface.co/blog/HelloKKMe/grounding-r1",
         "description": "",
         "results": {
@@ -1399,7 +1399,7 @@
             }
         }
     },
-    "Grounding-R1-72B": {
+    "GTA1-72B": {
         "link": "https://huggingface.co/blog/HelloKKMe/grounding-r1",
         "description": "",
         "results": {
