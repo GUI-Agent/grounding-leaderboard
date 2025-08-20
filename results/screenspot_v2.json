@@ -1,5 +1,5 @@
 {
-    "UI-Venus-72B.json": {
+    "UI-Venus-72B": {
         "link": "",
         "results": {
             "platform": {
@@ -22,7 +22,7 @@
             "overall_avg": 0.9528301886792453
         }
     },
-    "UI-Venus-7B.json": {
+    "UI-Venus-7B": {
         "link": "",
         "results": {
             "platform": {

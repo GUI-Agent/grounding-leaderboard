@@ -1,5 +1,5 @@
 {
-    "UI-Venus-72B.json": {
+    "UI-Venus-72B": {
         "link": "https://github.com/inclusionAI/UI-Venus",
         "description": "",
         "results": {
@@ -174,7 +174,7 @@
             }
         }
     },
-    "UI-Venus-7B.json": {
+    "UI-Venus-7B": {
         "link": "https://github.com/inclusionAI/UI-Venus",
         "description": "",
         "results": {
