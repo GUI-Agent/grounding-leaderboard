@@ -1,4 +1,27 @@
 {
+    "GUI-ARP-7B": {
+        "link": "https://github.com/MabeNice/GUI-ARP",
+        "results": {
+            "platform": {
+                "desktop": {
+                    "icon": 0.8571,
+                    "text": 0.9722,
+                    "avg": 0.9248
+                },
+                "mobile": {
+                    "icon": 0.8901,
+                    "text": 0.9651,
+                    "avg": 0.9332
+                },
+                "web": {
+                    "icon": 0.8481,
+                    "text": 0.9429,
+                    "avg": 0.8994
+                }
+            },
+            "overall_avg": 0.9175
+        }
+    },
     "Holo1.5-3B": {
         "link": "https://huggingface.co/Hcompany/Holo1.5-3B",
         "results": {
