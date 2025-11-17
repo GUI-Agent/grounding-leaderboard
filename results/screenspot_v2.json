@@ -1,4 +1,76 @@
 {
+    "Hcompany/Holo2-4B": {
+        "link": "https://huggingface.co/Hcompany/Holo2-4B",
+        "description": "Metrics for Hcompany/Holo2-4B",
+        "results": {
+            "platform": {
+                "desktop": {
+                    "icon": 0.9047619047619048,
+                    "text": 0.9555555555555556,
+                    "avg": 0.934640522875817
+                },
+                "web": {
+                    "icon": 0.8818565400843882,
+                    "text": 0.9357142857142857,
+                    "avg": 0.9110251450676983
+                },
+                "mobile": {
+                    "icon": 0.8952879581151832,
+                    "text": 0.9961089494163424,
+                    "avg": 0.953125
+                }
+            },
+            "overall_avg": 0.9315499606608969
+        }
+    },
+    "Hcompany/Holo2-8B": {
+        "link": "https://huggingface.co/Hcompany/Holo2-8B",
+        "description": "Metrics for Hcompany/Holo2-8B",
+        "results": {
+            "platform": {
+                "desktop": {
+                    "icon": 0.9206349206349206,
+                    "text": 0.9722222222222222,
+                    "avg": 0.9509803921568627
+                },
+                "web": {
+                    "icon": 0.8649789029535865,
+                    "text": 0.9464285714285714,
+                    "avg": 0.9090909090909091
+                },
+                "mobile": {
+                    "icon": 0.8900523560209425,
+                    "text": 0.9883268482490273,
+                    "avg": 0.9464285714285714
+                }
+            },
+            "overall_avg": 0.932336742722266
+        }
+    },
+    "Hcompany/Holo2-30B-A3B": {
+        "link": "https://huggingface.co/Hcompany/Holo2-30B-A3B",
+        "description": "Metrics for Hcompany/Holo2-30B-A3B",
+        "results": {
+            "platform": {
+                "desktop": {
+                    "icon": 0.9047619047619048,
+                    "text": 0.9833333333333333,
+                    "avg": 0.9509803921568627
+                },
+                "web": {
+                    "icon": 0.8987341772151899,
+                    "text": 0.9642857142857143,
+                    "avg": 0.9342359767891683
+                },
+                "mobile": {
+                    "icon": 0.9214659685863874,
+                    "text": 0.9961089494163424,
+                    "avg": 0.9642857142857143
+                }
+            },
+            "overall_avg": 0.9488591660110149
+        }
+    },
     "GUI-ARP-7B": {
         "link": "https://github.com/MabeNice/GUI-ARP",
         "results": {
