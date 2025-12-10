@@ -1,7 +1,7 @@
 {
   "Hcompany/Holo2-30B-A3B": {
     "link": "https://huggingface.co/Hcompany/Holo2-30B-A3B",
-    "description": "Metrics for Hcompany/Holo2-30B-A3B",
+    "description": "",
     "results": {
       "group": {
         "Scientific": {
@@ -176,7 +176,7 @@
   },
   "Hcompany/Holo2-4B": {
     "link": "https://huggingface.co/Hcompany/Holo2-4B",
-    "description": "Metrics for Hcompany/Holo2-4B",
+    "description": "",
     "results": {
       "group": {
         "Scientific": {
@@ -351,7 +351,7 @@
   },
   "Hcompany/Holo2-8B": {
     "link": "https://huggingface.co/Hcompany/Holo2-8B",
-    "description": "Metrics for Hcompany/Holo2-8B",
+    "description": "",
     "results": {
       "group": {
         "Scientific": {
