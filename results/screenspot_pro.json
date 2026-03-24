@@ -1,6 +1,6 @@
 {
   "KV-Ground-Qwen3VL-4B-ZoomIn": {
-    "link": "",
+    "link": "https://huggingface.co/vocaela/KV-Ground-4B-BaseQw3vl",
     "description": "",
     "results": {
       "group": {
@@ -175,7 +175,7 @@
     }
   },
   "KV-Ground-GuiOwl1.5-4B-0228-ZoomIn": {
-    "link": "",
+    "link": "https://huggingface.co/vocaela/KV-Ground-4B-BaseGuiOwl1.5-0228",
     "description": "",
     "results": {
       "group": {
@@ -350,7 +350,7 @@
     }
   },
   "KV-Ground-Qwen3VL-4B": {
-    "link": "",
+    "link": "https://huggingface.co/vocaela/KV-Ground-4B-BaseQw3vl",
     "description": "",
     "results": {
       "group": {
@@ -525,7 +525,7 @@
     }
   },
   "KV-Ground-GuiOwl1.5-0315-8B-ZoomIn": {
-    "link": "",
+    "link": "https://huggingface.co/vocaela/KV-Ground-8B-BaseGuiOwl1.5-0315",
     "description": "",
     "results": {
       "group": {
@@ -700,7 +700,7 @@
     }
   },
   "KV-Ground-GuiOwl1.5-0315-8B": {
-    "link": "",
+    "link": "https://huggingface.co/vocaela/KV-Ground-8B-BaseGuiOwl1.5-0315",
     "description": "",
     "results": {
       "group": {
@@ -874,8 +874,8 @@
       }
     }
   },
-  "KV-Ground-GuiOwl1.5-0228-8B": {
-    "link": "",
+  "KV-Ground-GuiOwl1.5-0228-4B": {
+    "link": "https://huggingface.co/vocaela/KV-Ground-4B-BaseGuiOwl1.5-0228",
     "description": "",
     "results": {
       "group": {
