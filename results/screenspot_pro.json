@@ -1,4 +1,179 @@
 {
+  "Duvo Eye-1 (Holo-3.1-35B-A3B + LoRA)": {
+    "link": "https://huggingface.co/duvoai/duvo-eye-1",
+    "description": "Holo-3.1-35B-A3B with a LoRA adapter (rank 64, alpha 128, 1 epoch) trained on duvoai/SynthUI (14.9k rows). Single-shot grounding, temperature 0, thinking disabled, guided-JSON {\"x\",\"y\"} in [0,1000] scaled to absolute pixels. Self-reported; per-sample predictions published for rescoring at https://huggingface.co/datasets/duvoai/duvo-eye-1-evals",
+    "results": {
+      "group": {
+        "CAD": {
+          "icon": 0.4531,
+          "text": 0.7157,
+          "avg": 0.6513
+        },
+        "Creative": {
+          "icon": 0.4895,
+          "text": 0.7929,
+          "avg": 0.6657
+        },
+        "Dev": {
+          "icon": 0.6759,
+          "text": 0.8442,
+          "avg": 0.7625
+        },
+        "OS": {
+          "icon": 0.6517,
+          "text": 0.8411,
+          "avg": 0.7551
+        },
+        "Office": {
+          "icon": 0.8113,
+          "text": 0.8927,
+          "avg": 0.8739
+        },
+        "Scientific": {
+          "icon": 0.5455,
+          "text": 0.8264,
+          "avg": 0.7047
+        }
+      },
+      "application": {
+        "android_studio": {
+          "icon": 0.7045,
+          "text": 0.9167,
+          "avg": 0.8
+        },
+        "autocad": {
+          "icon": 0.1429,
+          "text": 0.5926,
+          "avg": 0.5
+        },
+        "blender": {
+          "icon": 0.5333,
+          "text": 0.6964,
+          "avg": 0.662
+        },
+        "davinci": {
+          "icon": 0.4348,
+          "text": 0.8095,
+          "avg": 0.6136
+        },
+        "eviews": {
+          "icon": 1,
+          "text": 0.9302,
+          "avg": 0.94
+        },
+        "excel": {
+          "icon": 0.8462,
+          "text": 0.902,
+          "avg": 0.8906
+        },
+        "fruitloops": {
+          "icon": 0.3226,
+          "text": 0.6923,
+          "avg": 0.4912
+        },
+        "illustrator": {
+          "icon": 0.4211,
+          "text": 1,
+          "avg": 0.6452
+        },
+        "inventor": {
+          "icon": 0.1818,
+          "text": 0.7458,
+          "avg": 0.6571
+        },
+        "linux_common": {
+          "icon": 0.7895,
+          "text": 0.8387,
+          "avg": 0.82
+        },
+        "macos_common": {
+          "icon": 0.6522,
+          "text": 0.881,
+          "avg": 0.8
+        },
+        "matlab": {
+          "icon": 0.7895,
+          "text": 0.7838,
+          "avg": 0.7849
+        },
+        "origin": {
+          "icon": 0.2558,
+          "text": 0.6842,
+          "avg": 0.3871
+        },
+        "photoshop": {
+          "icon": 0.76,
+          "text": 0.9615,
+          "avg": 0.8627
+        },
+        "powerpoint": {
+          "icon": 0.8,
+          "text": 0.8772,
+          "avg": 0.8537
+        },
+        "premiere": {
+          "icon": 0.4583,
+          "text": 0.7857,
+          "avg": 0.6346
+        },
+        "pycharm": {
+          "icon": 0.6842,
+          "text": 0.8,
+          "avg": 0.7436
+        },
+        "quartus": {
+          "icon": 0.5312,
+          "text": 0.9231,
+          "avg": 0.6444
+        },
+        "solidworks": {
+          "icon": 0.5,
+          "text": 0.6667,
+          "avg": 0.6364
+        },
+        "stata": {
+          "icon": 0.6585,
+          "text": 1,
+          "avg": 0.7143
+        },
+        "unreal_engine": {
+          "icon": 0.6667,
+          "text": 0.8276,
+          "avg": 0.8
+        },
+        "vivado": {
+          "icon": 0.5938,
+          "text": 0.8125,
+          "avg": 0.725
+        },
+        "vmware": {
+          "icon": 0.7778,
+          "text": 0.9375,
+          "avg": 0.9024
+        },
+        "vscode": {
+          "icon": 0.7727,
+          "text": 0.697,
+          "avg": 0.7273
+        },
+        "windows_common": {
+          "icon": 0.5957,
+          "text": 0.7941,
+          "avg": 0.679
+        },
+        "word": {
+          "icon": 0.8,
+          "text": 0.8986,
+          "avg": 0.881
+        }
+      },
+      "overall": {
+        "icon": 0.5927,
+        "text": 0.8137,
+        "avg": 0.7293
+      }
+    }
+  },
   "KV-Ground-8B + Qwen3.5-27B Consistency Router": {
     "link": "https://github.com/omxyz/zoom-consistency-routing",
     "description": "Heterogeneous ensemble of KV-Ground-8B-BaseGuiOwl1.5-0315 and Qwen3.5-27B-AWQ-4bit. Both models run independent 2-step zoom-in pipelines (crop_ratio=0.5). Per sample, the model with lower zoom consistency (step-2 prediction closer to crop center = higher confidence) is selected. KV-Ground selected for 64.9% of samples, Qwen3.5-27B for 35.1%.",
