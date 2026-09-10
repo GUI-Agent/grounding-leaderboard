@@ -701,351 +701,351 @@
   },
   "HuzzleWorld-2B": {
     "link": "",
-    "description": "Proprietary",
+    "description": "HuzzleWorld-2B (huzzle-labs) - 2B computer-use agent (CUA) model, single-pass grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
     "results": {
       "group": {
-        "Dev": {
-          "icon": 0.5172413793103449,
-          "text": 0.7532467532467533,
-          "avg": 0.6387959866220736
-        },
-        "Creative": {
-          "icon": 0.3706293706293706,
-          "text": 0.6767676767676768,
-          "avg": 0.5483870967741935
-        },
         "CAD": {
-          "icon": 0.34375,
-          "text": 0.5634517766497462,
-          "avg": 0.5095785440613027
-        },
-        "Scientific": {
-          "icon": 0.44545454545454544,
-          "text": 0.75,
-          "avg": 0.6181102362204725
-        },
-        "Office": {
-          "icon": 0.5283018867924528,
-          "text": 0.8135593220338984,
-          "avg": 0.7478260869565218
+          "icon": 0.375,
+          "text": 0.5635,
+          "avg": 0.5172
         },
         "OS": {
-          "icon": 0.5280898876404494,
-          "text": 0.6915887850467289,
-          "avg": 0.6173469387755102
+          "icon": 0.5393,
+          "text": 0.7009,
+          "avg": 0.6276
+        },
+        "Creative": {
+          "icon": 0.4056,
+          "text": 0.697,
+          "avg": 0.5748
+        },
+        "Dev": {
+          "icon": 0.5379,
+          "text": 0.7403,
+          "avg": 0.6421
+        },
+        "Scientific": {
+          "icon": 0.4273,
+          "text": 0.7569,
+          "avg": 0.6142
+        },
+        "Office": {
+          "icon": 0.5472,
+          "text": 0.8192,
+          "avg": 0.7565
         }
       },
       "application": {
         "inventor": {
-          "icon": 0.18181818181818182,
-          "text": 0.5423728813559322,
-          "avg": 0.4857142857142857
-        },
-        "eviews": {
-          "icon": 0.8571428571428571,
-          "text": 0.7674418604651163,
-          "avg": 0.78
+          "icon": 0.1818,
+          "text": 0.5254,
+          "avg": 0.4714
         },
         "linux_common": {
-          "icon": 0.5263157894736842,
-          "text": 0.6451612903225806,
+          "icon": 0.5263,
+          "text": 0.6452,
           "avg": 0.6
         },
-        "word": {
-          "icon": 0.4666666666666667,
-          "text": 0.9130434782608695,
-          "avg": 0.8333333333333334
-        },
-        "blender": {
-          "icon": 0.4,
-          "text": 0.5535714285714286,
-          "avg": 0.5211267605633803
-        },
-        "pycharm": {
-          "icon": 0.631578947368421,
-          "text": 0.8,
-          "avg": 0.717948717948718
-        },
-        "fruitloops": {
-          "icon": 0.16129032258064516,
-          "text": 0.5769230769230769,
-          "avg": 0.3508771929824561
-        },
-        "quartus": {
-          "icon": 0.34375,
-          "text": 0.9230769230769231,
-          "avg": 0.5111111111111111
-        },
-        "powerpoint": {
-          "icon": 0.56,
-          "text": 0.8421052631578947,
-          "avg": 0.7560975609756098
-        },
-        "windows_common": {
-          "icon": 0.48936170212765956,
-          "text": 0.7647058823529411,
-          "avg": 0.6049382716049383
-        },
-        "autocad": {
-          "icon": 0,
-          "text": 0.4444444444444444,
-          "avg": 0.35294117647058826
-        },
-        "illustrator": {
-          "icon": 0.3157894736842105,
-          "text": 0.9166666666666666,
-          "avg": 0.5483870967741935
-        },
-        "vivado": {
-          "icon": 0.46875,
-          "text": 0.7291666666666666,
-          "avg": 0.625
-        },
-        "stata": {
-          "icon": 0.5121951219512195,
-          "text": 1,
-          "avg": 0.5918367346938775
-        },
-        "excel": {
-          "icon": 0.5384615384615384,
-          "text": 0.6470588235294118,
-          "avg": 0.625
+        "macos_common": {
+          "icon": 0.6087,
+          "text": 0.7381,
+          "avg": 0.6923
         },
         "premiere": {
-          "icon": 0.4166666666666667,
-          "text": 0.5714285714285714,
-          "avg": 0.5
+          "icon": 0.4167,
+          "text": 0.6071,
+          "avg": 0.5192
         },
-        "vmware": {
-          "icon": 0.7777777777777778,
-          "text": 0.6875,
-          "avg": 0.7073170731707317
+        "quartus": {
+          "icon": 0.3125,
+          "text": 0.9231,
+          "avg": 0.4889
         },
-        "vscode": {
-          "icon": 0.6818181818181818,
-          "text": 0.7272727272727273,
-          "avg": 0.7090909090909091
+        "solidworks": {
+          "icon": 0.3571,
+          "text": 0.4921,
+          "avg": 0.4675
         },
-        "matlab": {
-          "icon": 0.5789473684210527,
-          "text": 0.7162162162162162,
-          "avg": 0.6881720430107527
-        },
-        "photoshop": {
-          "icon": 0.56,
-          "text": 0.7692307692307693,
-          "avg": 0.6666666666666666
-        },
-        "android_studio": {
-          "icon": 0.4090909090909091,
-          "text": 0.7222222222222222,
-          "avg": 0.55
-        },
-        "macos_common": {
-          "icon": 0.6086956521739131,
-          "text": 0.6666666666666666,
-          "avg": 0.6461538461538462
-        },
-        "origin": {
-          "icon": 0.2558139534883721,
-          "text": 0.7368421052631579,
-          "avg": 0.4032258064516129
+        "stata": {
+          "icon": 0.4878,
+          "text": 1.0,
+          "avg": 0.5714
         },
         "unreal_engine": {
           "icon": 0.5,
-          "text": 0.7586206896551724,
-          "avg": 0.7142857142857143
+          "text": 0.7586,
+          "avg": 0.7143
+        },
+        "matlab": {
+          "icon": 0.5263,
+          "text": 0.7297,
+          "avg": 0.6882
+        },
+        "pycharm": {
+          "icon": 0.7105,
+          "text": 0.775,
+          "avg": 0.7436
+        },
+        "vmware": {
+          "icon": 0.7778,
+          "text": 0.7188,
+          "avg": 0.7317
+        },
+        "windows_common": {
+          "icon": 0.5106,
+          "text": 0.7059,
+          "avg": 0.5926
+        },
+        "autocad": {
+          "icon": 0.0,
+          "text": 0.4444,
+          "avg": 0.3529
+        },
+        "blender": {
+          "icon": 0.4667,
+          "text": 0.5714,
+          "avg": 0.5493
         },
         "davinci": {
-          "icon": 0.391304347826087,
-          "text": 0.9047619047619048,
-          "avg": 0.6363636363636364
+          "icon": 0.3913,
+          "text": 0.8571,
+          "avg": 0.6136
         },
-        "solidworks": {
-          "icon": 0.35714285714285715,
-          "text": 0.5079365079365079,
-          "avg": 0.4805194805194805
+        "photoshop": {
+          "icon": 0.64,
+          "text": 0.8077,
+          "avg": 0.7255
+        },
+        "powerpoint": {
+          "icon": 0.64,
+          "text": 0.8772,
+          "avg": 0.8049
+        },
+        "android_studio": {
+          "icon": 0.4091,
+          "text": 0.75,
+          "avg": 0.5625
+        },
+        "illustrator": {
+          "icon": 0.3158,
+          "text": 1.0,
+          "avg": 0.5806
+        },
+        "eviews": {
+          "icon": 1.0,
+          "text": 0.814,
+          "avg": 0.84
+        },
+        "excel": {
+          "icon": 0.3846,
+          "text": 0.6275,
+          "avg": 0.5781
+        },
+        "origin": {
+          "icon": 0.2326,
+          "text": 0.6316,
+          "avg": 0.3548
+        },
+        "vivado": {
+          "icon": 0.5312,
+          "text": 0.7708,
+          "avg": 0.675
+        },
+        "vscode": {
+          "icon": 0.7273,
+          "text": 0.6364,
+          "avg": 0.6727
+        },
+        "fruitloops": {
+          "icon": 0.2258,
+          "text": 0.6154,
+          "avg": 0.4035
+        },
+        "word": {
+          "icon": 0.5333,
+          "text": 0.913,
+          "avg": 0.8452
         }
       },
       "overall": {
-        "icon": 0.45364238410596025,
-        "text": 0.7031729785056294,
-        "avg": 0.6078431372549019
+        "icon": 0.4702,
+        "text": 0.7083,
+        "avg": 0.6173
       }
     }
   },
   "HuzzleWorld-2B (Zoom In)": {
     "link": "",
-    "description": "Proprietary. Two-pass: Coarse localize -> Crop -> Reground)",
+    "description": "HuzzleWorld-2B (huzzle-labs) - 2B computer-use agent (CUA) model, two-pass zoom-in grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
     "results": {
       "group": {
-        "Dev": {
-          "icon": 0.5379310344827586,
-          "text": 0.7857142857142857,
-          "avg": 0.6655518394648829
-        },
-        "Creative": {
-          "icon": 0.4755244755244755,
-          "text": 0.7222222222222222,
-          "avg": 0.6187683284457478
-        },
         "CAD": {
-          "icon": 0.484375,
-          "text": 0.6091370558375635,
-          "avg": 0.578544061302682
-        },
-        "Scientific": {
-          "icon": 0.44545454545454544,
-          "text": 0.7430555555555556,
-          "avg": 0.6141732283464567
-        },
-        "Office": {
-          "icon": 0.6037735849056604,
-          "text": 0.7853107344632768,
-          "avg": 0.7434782608695653
+          "icon": 0.5156,
+          "text": 0.7614,
+          "avg": 0.7011
         },
         "OS": {
-          "icon": 0.5730337078651685,
-          "text": 0.7102803738317757,
-          "avg": 0.6479591836734694
+          "icon": 0.5281,
+          "text": 0.785,
+          "avg": 0.6684
+        },
+        "Creative": {
+          "icon": 0.4965,
+          "text": 0.7475,
+          "avg": 0.6422
+        },
+        "Dev": {
+          "icon": 0.6552,
+          "text": 0.8312,
+          "avg": 0.7458
+        },
+        "Scientific": {
+          "icon": 0.5,
+          "text": 0.8264,
+          "avg": 0.685
+        },
+        "Office": {
+          "icon": 0.6415,
+          "text": 0.8814,
+          "avg": 0.8261
         }
       },
       "application": {
-        "windows_common": {
-          "icon": 0.48936170212765956,
-          "text": 0.7647058823529411,
-          "avg": 0.6049382716049383
-        },
         "inventor": {
-          "icon": 0.36363636363636365,
-          "text": 0.6779661016949152,
-          "avg": 0.6285714285714286
+          "icon": 0.3636,
+          "text": 0.8305,
+          "avg": 0.7571
         },
-        "fruitloops": {
-          "icon": 0.16129032258064516,
-          "text": 0.5769230769230769,
-          "avg": 0.3508771929824561
+        "linux_common": {
+          "icon": 0.4737,
+          "text": 0.7742,
+          "avg": 0.66
         },
-        "pycharm": {
-          "icon": 0.631578947368421,
-          "text": 0.75,
-          "avg": 0.6923076923076923
+        "macos_common": {
+          "icon": 0.6957,
+          "text": 0.7857,
+          "avg": 0.7538
         },
-        "davinci": {
-          "icon": 0.5217391304347826,
-          "text": 0.9523809523809523,
-          "avg": 0.7272727272727273
-        },
-        "powerpoint": {
-          "icon": 0.52,
-          "text": 0.7719298245614035,
-          "avg": 0.6951219512195121
+        "premiere": {
+          "icon": 0.6667,
+          "text": 0.6786,
+          "avg": 0.6731
         },
         "quartus": {
-          "icon": 0.3125,
-          "text": 1,
-          "avg": 0.5111111111111111
+          "icon": 0.7188,
+          "text": 1.0,
+          "avg": 0.8
         },
-        "android_studio": {
-          "icon": 0.45454545454545453,
-          "text": 0.8055555555555556,
-          "avg": 0.6125
-        },
-        "vmware": {
-          "icon": 1,
-          "text": 0.78125,
-          "avg": 0.8292682926829268
+        "solidworks": {
+          "icon": 0.6429,
+          "text": 0.6667,
+          "avg": 0.6623
         },
         "stata": {
-          "icon": 0.4878048780487805,
-          "text": 1,
-          "avg": 0.5714285714285714
+          "icon": 0.561,
+          "text": 1.0,
+          "avg": 0.6327
         },
         "unreal_engine": {
-          "icon": 0.5,
-          "text": 0.7586206896551724,
-          "avg": 0.7142857142857143
+          "icon": 0.3333,
+          "text": 0.7586,
+          "avg": 0.6857
+        },
+        "matlab": {
+          "icon": 0.7895,
+          "text": 0.7838,
+          "avg": 0.7849
+        },
+        "pycharm": {
+          "icon": 0.6316,
+          "text": 0.75,
+          "avg": 0.6923
+        },
+        "vmware": {
+          "icon": 0.8889,
+          "text": 0.9375,
+          "avg": 0.9268
+        },
+        "windows_common": {
+          "icon": 0.4681,
+          "text": 0.7941,
+          "avg": 0.6049
         },
         "autocad": {
-          "icon": 0.14285714285714285,
-          "text": 0.4074074074074074,
-          "avg": 0.35294117647058826
+          "icon": 0.1429,
+          "text": 0.5926,
+          "avg": 0.5
+        },
+        "blender": {
+          "icon": 0.6,
+          "text": 0.6429,
+          "avg": 0.6338
+        },
+        "davinci": {
+          "icon": 0.4783,
+          "text": 1.0,
+          "avg": 0.7273
+        },
+        "photoshop": {
+          "icon": 0.6,
+          "text": 0.7692,
+          "avg": 0.6863
+        },
+        "powerpoint": {
+          "icon": 0.64,
+          "text": 0.8947,
+          "avg": 0.8171
+        },
+        "android_studio": {
+          "icon": 0.5455,
+          "text": 0.75,
+          "avg": 0.6375
+        },
+        "illustrator": {
+          "icon": 0.5789,
+          "text": 0.9167,
+          "avg": 0.7097
+        },
+        "eviews": {
+          "icon": 0.7143,
+          "text": 0.9302,
+          "avg": 0.9
+        },
+        "excel": {
+          "icon": 0.6923,
+          "text": 0.8039,
+          "avg": 0.7812
+        },
+        "origin": {
+          "icon": 0.2791,
+          "text": 0.6842,
+          "avg": 0.4032
+        },
+        "vivado": {
+          "icon": 0.5938,
+          "text": 0.8958,
+          "avg": 0.775
+        },
+        "vscode": {
+          "icon": 0.7273,
+          "text": 0.8485,
+          "avg": 0.8
+        },
+        "fruitloops": {
+          "icon": 0.2258,
+          "text": 0.7308,
+          "avg": 0.4561
         },
         "word": {
           "icon": 0.6,
-          "text": 0.8840579710144928,
-          "avg": 0.8333333333333334
-        },
-        "linux_common": {
-          "icon": 0.6842105263157895,
-          "text": 0.6774193548387096,
-          "avg": 0.68
-        },
-        "blender": {
-          "icon": 0.4666666666666667,
-          "text": 0.6428571428571429,
-          "avg": 0.6056338028169014
-        },
-        "macos_common": {
-          "icon": 0.6521739130434783,
-          "text": 0.6904761904761905,
-          "avg": 0.676923076923077
-        },
-        "solidworks": {
-          "icon": 0.5714285714285714,
-          "text": 0.47619047619047616,
-          "avg": 0.4935064935064935
-        },
-        "photoshop": {
-          "icon": 0.64,
-          "text": 0.8076923076923077,
-          "avg": 0.7254901960784313
-        },
-        "excel": {
-          "icon": 0.7692307692307693,
-          "text": 0.6666666666666666,
-          "avg": 0.6875
-        },
-        "vivado": {
-          "icon": 0.5625,
-          "text": 0.8125,
-          "avg": 0.7125
-        },
-        "illustrator": {
-          "icon": 0.5789473684210527,
-          "text": 0.8333333333333334,
-          "avg": 0.6774193548387096
-        },
-        "vscode": {
-          "icon": 0.6818181818181818,
-          "text": 0.7272727272727273,
-          "avg": 0.7090909090909091
-        },
-        "matlab": {
-          "icon": 0.5789473684210527,
-          "text": 0.6891891891891891,
-          "avg": 0.6666666666666666
-        },
-        "premiere": {
-          "icon": 0.5833333333333334,
-          "text": 0.6785714285714286,
-          "avg": 0.6346153846153846
-        },
-        "eviews": {
-          "icon": 0.8571428571428571,
-          "text": 0.813953488372093,
-          "avg": 0.82
-        },
-        "origin": {
-          "icon": 0.27906976744186046,
-          "text": 0.6842105263157895,
-          "avg": 0.4032258064516129
+          "text": 0.9275,
+          "avg": 0.869
         }
       },
       "overall": {
-        "icon": 0.5115894039735099,
-        "text": 0.7226202661207779,
-        "avg": 0.6419987349778621
+        "icon": 0.5546,
+        "text": 0.8035,
+        "avg": 0.7084
       }
     }
   },
@@ -16271,6 +16271,706 @@
         "icon": 0.016556291390728478,
         "text": 0.05015353121801433,
         "avg": 0.03731815306767868
+      }
+    }
+  },
+  "HuzzleWorld-3B (Zoom In)": {
+    "link": "",
+    "description": "HuzzleWorld-3B (huzzle-labs) - 3B computer-use agent (CUA) model, two-pass zoom-in grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "results": {
+      "group": {
+        "Dev": {
+          "icon": 0.6276,
+          "text": 0.8247,
+          "avg": 0.7291
+        },
+        "CAD": {
+          "icon": 0.5156,
+          "text": 0.6548,
+          "avg": 0.6207
+        },
+        "Creative": {
+          "icon": 0.5664,
+          "text": 0.7879,
+          "avg": 0.695
+        },
+        "Scientific": {
+          "icon": 0.6182,
+          "text": 0.8472,
+          "avg": 0.748
+        },
+        "Office": {
+          "icon": 0.8113,
+          "text": 0.8757,
+          "avg": 0.8609
+        },
+        "OS": {
+          "icon": 0.618,
+          "text": 0.7944,
+          "avg": 0.7143
+        }
+      },
+      "application": {
+        "android_studio": {
+          "icon": 0.6818,
+          "text": 0.8889,
+          "avg": 0.775
+        },
+        "autocad": {
+          "icon": 0.0,
+          "text": 0.5926,
+          "avg": 0.4706
+        },
+        "blender": {
+          "icon": 0.7333,
+          "text": 0.6786,
+          "avg": 0.6901
+        },
+        "davinci": {
+          "icon": 0.5652,
+          "text": 0.9048,
+          "avg": 0.7273
+        },
+        "eviews": {
+          "icon": 0.8571,
+          "text": 0.907,
+          "avg": 0.9
+        },
+        "excel": {
+          "icon": 0.7692,
+          "text": 0.7647,
+          "avg": 0.7656
+        },
+        "fruitloops": {
+          "icon": 0.3548,
+          "text": 0.6923,
+          "avg": 0.5088
+        },
+        "illustrator": {
+          "icon": 0.5263,
+          "text": 0.9167,
+          "avg": 0.6774
+        },
+        "inventor": {
+          "icon": 0.4545,
+          "text": 0.5932,
+          "avg": 0.5714
+        },
+        "linux_common": {
+          "icon": 0.6316,
+          "text": 0.7419,
+          "avg": 0.7
+        },
+        "macos_common": {
+          "icon": 0.6522,
+          "text": 0.8333,
+          "avg": 0.7692
+        },
+        "matlab": {
+          "icon": 0.8421,
+          "text": 0.8784,
+          "avg": 0.871
+        },
+        "origin": {
+          "icon": 0.3721,
+          "text": 0.5789,
+          "avg": 0.4355
+        },
+        "photoshop": {
+          "icon": 0.8,
+          "text": 0.9231,
+          "avg": 0.8627
+        },
+        "powerpoint": {
+          "icon": 0.88,
+          "text": 0.9123,
+          "avg": 0.9024
+        },
+        "premiere": {
+          "icon": 0.5,
+          "text": 0.8214,
+          "avg": 0.6731
+        },
+        "pycharm": {
+          "icon": 0.5263,
+          "text": 0.75,
+          "avg": 0.641
+        },
+        "quartus": {
+          "icon": 0.75,
+          "text": 0.8462,
+          "avg": 0.7778
+        },
+        "solidworks": {
+          "icon": 0.5714,
+          "text": 0.6032,
+          "avg": 0.5974
+        },
+        "stata": {
+          "icon": 0.7317,
+          "text": 0.875,
+          "avg": 0.7551
+        },
+        "unreal_engine": {
+          "icon": 0.6667,
+          "text": 0.7931,
+          "avg": 0.7714
+        },
+        "vivado": {
+          "icon": 0.625,
+          "text": 0.8333,
+          "avg": 0.75
+        },
+        "vmware": {
+          "icon": 0.6667,
+          "text": 0.9062,
+          "avg": 0.8537
+        },
+        "vscode": {
+          "icon": 0.5,
+          "text": 0.7576,
+          "avg": 0.6545
+        },
+        "windows_common": {
+          "icon": 0.5957,
+          "text": 0.7941,
+          "avg": 0.679
+        },
+        "word": {
+          "icon": 0.7333,
+          "text": 0.9275,
+          "avg": 0.8929
+        }
+      },
+      "overall": {
+        "icon": 0.6142,
+        "text": 0.7922,
+        "avg": 0.7242
+      }
+    }
+  },
+  "HuzzleWorld-3B": {
+    "link": "",
+    "description": "HuzzleWorld-3B (huzzle-labs) - 3B computer-use agent (CUA) model, single-pass grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "results": {
+      "group": {
+        "Dev": {
+          "icon": 0.5517,
+          "text": 0.8117,
+          "avg": 0.6856
+        },
+        "CAD": {
+          "icon": 0.4219,
+          "text": 0.5076,
+          "avg": 0.4866
+        },
+        "Creative": {
+          "icon": 0.5105,
+          "text": 0.7576,
+          "avg": 0.654
+        },
+        "Scientific": {
+          "icon": 0.5364,
+          "text": 0.8194,
+          "avg": 0.6969
+        },
+        "Office": {
+          "icon": 0.717,
+          "text": 0.8531,
+          "avg": 0.8217
+        },
+        "OS": {
+          "icon": 0.5618,
+          "text": 0.7383,
+          "avg": 0.6582
+        }
+      },
+      "application": {
+        "android_studio": {
+          "icon": 0.5455,
+          "text": 0.8889,
+          "avg": 0.7
+        },
+        "autocad": {
+          "icon": 0.0,
+          "text": 0.5185,
+          "avg": 0.4118
+        },
+        "blender": {
+          "icon": 0.5333,
+          "text": 0.7143,
+          "avg": 0.6761
+        },
+        "davinci": {
+          "icon": 0.6087,
+          "text": 0.9048,
+          "avg": 0.75
+        },
+        "eviews": {
+          "icon": 0.7143,
+          "text": 0.9302,
+          "avg": 0.9
+        },
+        "excel": {
+          "icon": 0.6923,
+          "text": 0.7059,
+          "avg": 0.7031
+        },
+        "fruitloops": {
+          "icon": 0.2581,
+          "text": 0.5385,
+          "avg": 0.386
+        },
+        "illustrator": {
+          "icon": 0.4737,
+          "text": 0.9167,
+          "avg": 0.6452
+        },
+        "inventor": {
+          "icon": 0.2727,
+          "text": 0.4746,
+          "avg": 0.4429
+        },
+        "linux_common": {
+          "icon": 0.5263,
+          "text": 0.7742,
+          "avg": 0.68
+        },
+        "macos_common": {
+          "icon": 0.5652,
+          "text": 0.7619,
+          "avg": 0.6923
+        },
+        "matlab": {
+          "icon": 0.7895,
+          "text": 0.8378,
+          "avg": 0.828
+        },
+        "origin": {
+          "icon": 0.3721,
+          "text": 0.4737,
+          "avg": 0.4032
+        },
+        "photoshop": {
+          "icon": 0.72,
+          "text": 0.8462,
+          "avg": 0.7843
+        },
+        "powerpoint": {
+          "icon": 0.68,
+          "text": 0.8947,
+          "avg": 0.8293
+        },
+        "premiere": {
+          "icon": 0.5,
+          "text": 0.7143,
+          "avg": 0.6154
+        },
+        "pycharm": {
+          "icon": 0.6053,
+          "text": 0.75,
+          "avg": 0.6795
+        },
+        "quartus": {
+          "icon": 0.625,
+          "text": 0.9231,
+          "avg": 0.7111
+        },
+        "solidworks": {
+          "icon": 0.5,
+          "text": 0.3492,
+          "avg": 0.3766
+        },
+        "stata": {
+          "icon": 0.561,
+          "text": 0.875,
+          "avg": 0.6122
+        },
+        "unreal_engine": {
+          "icon": 0.6667,
+          "text": 0.8276,
+          "avg": 0.8
+        },
+        "vivado": {
+          "icon": 0.5312,
+          "text": 0.75,
+          "avg": 0.6625
+        },
+        "vmware": {
+          "icon": 0.3333,
+          "text": 0.9062,
+          "avg": 0.7805
+        },
+        "vscode": {
+          "icon": 0.4545,
+          "text": 0.6667,
+          "avg": 0.5818
+        },
+        "windows_common": {
+          "icon": 0.5745,
+          "text": 0.6765,
+          "avg": 0.6173
+        },
+        "word": {
+          "icon": 0.8,
+          "text": 0.9275,
+          "avg": 0.9048
+        }
+      },
+      "overall": {
+        "icon": 0.5414,
+        "text": 0.74,
+        "avg": 0.6641
+      }
+    }
+  },
+  "HuzzleWorld-1B (Zoom In)": {
+    "link": "",
+    "description": "HuzzleWorld-1B (huzzle-labs) - 1B computer-use agent (CUA) model, two-pass zoom-in grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "results": {
+      "group": {
+        "CAD": {
+          "icon": 0.375,
+          "text": 0.6599,
+          "avg": 0.59
+        },
+        "OS": {
+          "icon": 0.4831,
+          "text": 0.6822,
+          "avg": 0.5918
+        },
+        "Creative": {
+          "icon": 0.4126,
+          "text": 0.7475,
+          "avg": 0.607
+        },
+        "Dev": {
+          "icon": 0.5103,
+          "text": 0.7662,
+          "avg": 0.6421
+        },
+        "Scientific": {
+          "icon": 0.3909,
+          "text": 0.8264,
+          "avg": 0.6378
+        },
+        "Office": {
+          "icon": 0.6038,
+          "text": 0.7966,
+          "avg": 0.7522
+        }
+      },
+      "application": {
+        "inventor": {
+          "icon": 0.2727,
+          "text": 0.7119,
+          "avg": 0.6429
+        },
+        "linux_common": {
+          "icon": 0.4737,
+          "text": 0.6452,
+          "avg": 0.58
+        },
+        "macos_common": {
+          "icon": 0.5652,
+          "text": 0.6905,
+          "avg": 0.6462
+        },
+        "premiere": {
+          "icon": 0.2917,
+          "text": 0.6071,
+          "avg": 0.4615
+        },
+        "quartus": {
+          "icon": 0.5,
+          "text": 0.9231,
+          "avg": 0.6222
+        },
+        "solidworks": {
+          "icon": 0.4286,
+          "text": 0.6508,
+          "avg": 0.6104
+        },
+        "stata": {
+          "icon": 0.4634,
+          "text": 1.0,
+          "avg": 0.551
+        },
+        "unreal_engine": {
+          "icon": 0.3333,
+          "text": 0.8621,
+          "avg": 0.7714
+        },
+        "matlab": {
+          "icon": 0.6316,
+          "text": 0.7568,
+          "avg": 0.7312
+        },
+        "pycharm": {
+          "icon": 0.4737,
+          "text": 0.725,
+          "avg": 0.6026
+        },
+        "vmware": {
+          "icon": 0.5556,
+          "text": 0.9375,
+          "avg": 0.8537
+        },
+        "windows_common": {
+          "icon": 0.4468,
+          "text": 0.7059,
+          "avg": 0.5556
+        },
+        "autocad": {
+          "icon": 0.2857,
+          "text": 0.4444,
+          "avg": 0.4118
+        },
+        "blender": {
+          "icon": 0.4,
+          "text": 0.6786,
+          "avg": 0.6197
+        },
+        "davinci": {
+          "icon": 0.3478,
+          "text": 0.8095,
+          "avg": 0.5682
+        },
+        "photoshop": {
+          "icon": 0.8,
+          "text": 0.8462,
+          "avg": 0.8235
+        },
+        "powerpoint": {
+          "icon": 0.6,
+          "text": 0.7719,
+          "avg": 0.7195
+        },
+        "android_studio": {
+          "icon": 0.4773,
+          "text": 0.6944,
+          "avg": 0.575
+        },
+        "illustrator": {
+          "icon": 0.4737,
+          "text": 0.9167,
+          "avg": 0.6452
+        },
+        "eviews": {
+          "icon": 0.7143,
+          "text": 0.9535,
+          "avg": 0.92
+        },
+        "excel": {
+          "icon": 0.8462,
+          "text": 0.7647,
+          "avg": 0.7812
+        },
+        "origin": {
+          "icon": 0.1628,
+          "text": 0.7368,
+          "avg": 0.3387
+        },
+        "vivado": {
+          "icon": 0.4062,
+          "text": 0.7292,
+          "avg": 0.6
+        },
+        "vscode": {
+          "icon": 0.6364,
+          "text": 0.6667,
+          "avg": 0.6545
+        },
+        "fruitloops": {
+          "icon": 0.2258,
+          "text": 0.6923,
+          "avg": 0.4386
+        },
+        "word": {
+          "icon": 0.4,
+          "text": 0.8406,
+          "avg": 0.7619
+        }
+      },
+      "overall": {
+        "icon": 0.4553,
+        "text": 0.7462,
+        "avg": 0.635
+      }
+    }
+  },
+  "HuzzleWorld-1B": {
+    "link": "",
+    "description": "HuzzleWorld-1B (huzzle-labs) - 1B computer-use agent (CUA) model, single-pass grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "results": {
+      "group": {
+        "CAD": {
+          "icon": 0.2656,
+          "text": 0.5279,
+          "avg": 0.4636
+        },
+        "OS": {
+          "icon": 0.4382,
+          "text": 0.6075,
+          "avg": 0.5306
+        },
+        "Creative": {
+          "icon": 0.2517,
+          "text": 0.6869,
+          "avg": 0.5044
+        },
+        "Dev": {
+          "icon": 0.4,
+          "text": 0.7597,
+          "avg": 0.5853
+        },
+        "Scientific": {
+          "icon": 0.3636,
+          "text": 0.7708,
+          "avg": 0.5945
+        },
+        "Office": {
+          "icon": 0.434,
+          "text": 0.7514,
+          "avg": 0.6783
+        }
+      },
+      "application": {
+        "inventor": {
+          "icon": 0.0909,
+          "text": 0.4915,
+          "avg": 0.4286
+        },
+        "linux_common": {
+          "icon": 0.4737,
+          "text": 0.6129,
+          "avg": 0.56
+        },
+        "macos_common": {
+          "icon": 0.5217,
+          "text": 0.6905,
+          "avg": 0.6308
+        },
+        "premiere": {
+          "icon": 0.4167,
+          "text": 0.4286,
+          "avg": 0.4231
+        },
+        "quartus": {
+          "icon": 0.3438,
+          "text": 0.8462,
+          "avg": 0.4889
+        },
+        "solidworks": {
+          "icon": 0.3571,
+          "text": 0.5079,
+          "avg": 0.4805
+        },
+        "stata": {
+          "icon": 0.3659,
+          "text": 0.75,
+          "avg": 0.4286
+        },
+        "unreal_engine": {
+          "icon": 0.3333,
+          "text": 0.8621,
+          "avg": 0.7714
+        },
+        "matlab": {
+          "icon": 0.6316,
+          "text": 0.7568,
+          "avg": 0.7312
+        },
+        "pycharm": {
+          "icon": 0.3421,
+          "text": 0.8,
+          "avg": 0.5769
+        },
+        "vmware": {
+          "icon": 0.5556,
+          "text": 0.8438,
+          "avg": 0.7805
+        },
+        "windows_common": {
+          "icon": 0.383,
+          "text": 0.5,
+          "avg": 0.4321
+        },
+        "autocad": {
+          "icon": 0.0,
+          "text": 0.3333,
+          "avg": 0.2647
+        },
+        "blender": {
+          "icon": 0.4,
+          "text": 0.5536,
+          "avg": 0.5211
+        },
+        "davinci": {
+          "icon": 0.1739,
+          "text": 0.8571,
+          "avg": 0.5
+        },
+        "photoshop": {
+          "icon": 0.24,
+          "text": 0.8077,
+          "avg": 0.5294
+        },
+        "powerpoint": {
+          "icon": 0.44,
+          "text": 0.7719,
+          "avg": 0.6707
+        },
+        "android_studio": {
+          "icon": 0.3182,
+          "text": 0.6389,
+          "avg": 0.4625
+        },
+        "illustrator": {
+          "icon": 0.1579,
+          "text": 0.8333,
+          "avg": 0.4194
+        },
+        "eviews": {
+          "icon": 0.5714,
+          "text": 0.8837,
+          "avg": 0.84
+        },
+        "excel": {
+          "icon": 0.4615,
+          "text": 0.5686,
+          "avg": 0.5469
+        },
+        "origin": {
+          "icon": 0.2093,
+          "text": 0.5789,
+          "avg": 0.3226
+        },
+        "vivado": {
+          "icon": 0.3438,
+          "text": 0.7083,
+          "avg": 0.5625
+        },
+        "vscode": {
+          "icon": 0.6818,
+          "text": 0.7273,
+          "avg": 0.7091
+        },
+        "fruitloops": {
+          "icon": 0.1613,
+          "text": 0.7308,
+          "avg": 0.4211
+        },
+        "word": {
+          "icon": 0.4,
+          "text": 0.8696,
+          "avg": 0.7857
+        }
+      },
+      "overall": {
+        "icon": 0.3526,
+        "text": 0.6817,
+        "avg": 0.556
       }
     }
   }
