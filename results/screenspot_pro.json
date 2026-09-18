@@ -700,8 +700,8 @@
     }
   },
   "HuzzleWorld-2B": {
-    "link": "",
-    "description": "HuzzleWorld-2B (huzzle-labs) - 2B computer-use agent (CUA) model, single-pass grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "link": "https://labs.huzzle.com",
+    "description": "Proprietary",
     "results": {
       "group": {
         "CAD": {
@@ -875,8 +875,8 @@
     }
   },
   "HuzzleWorld-2B (Zoom In)": {
-    "link": "",
-    "description": "HuzzleWorld-2B (huzzle-labs) - 2B computer-use agent (CUA) model, two-pass zoom-in grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "link": "https://labs.huzzle.com",
+    "description": "Proprietary",
     "results": {
       "group": {
         "CAD": {
@@ -16275,8 +16275,8 @@
     }
   },
   "HuzzleWorld-3B (Zoom In)": {
-    "link": "",
-    "description": "HuzzleWorld-3B (huzzle-labs) - 3B computer-use agent (CUA) model, two-pass zoom-in grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "link": "https://labs.huzzle.com",
+    "description": "Proprietary",
     "results": {
       "group": {
         "Dev": {
@@ -16450,8 +16450,8 @@
     }
   },
   "HuzzleWorld-3B": {
-    "link": "",
-    "description": "HuzzleWorld-3B (huzzle-labs) - 3B computer-use agent (CUA) model, single-pass grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "link": "https://labs.huzzle.com",
+    "description": "Proprietary",
     "results": {
       "group": {
         "Dev": {
@@ -16625,8 +16625,8 @@
     }
   },
   "HuzzleWorld-1B (Zoom In)": {
-    "link": "",
-    "description": "HuzzleWorld-1B (huzzle-labs) - 1B computer-use agent (CUA) model, two-pass zoom-in grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "link": "https://labs.huzzle.com",
+    "description": "Proprietary",
     "results": {
       "group": {
         "CAD": {
@@ -16800,8 +16800,8 @@
     }
   },
   "HuzzleWorld-1B": {
-    "link": "",
-    "description": "HuzzleWorld-1B (huzzle-labs) - 1B computer-use agent (CUA) model, single-pass grounding. Closed weights, no public checkpoint. Self-reported; per-sample predictions supplied for offline re-scoring and reproduced by the maintainer against the official ground truth.",
+    "link": "https://labs.huzzle.com",
+    "description": "Proprietary",
     "results": {
       "group": {
         "CAD": {
