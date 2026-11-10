@@ -649,5 +649,53 @@
       },
       "overall_avg": 0.9175
     }
+  },
+  "Atom (4-bit, one-shot)": {
+    "link": "https://github.com/akshatcoder-hash/atom-screenspot-v2/releases/tag/v1.0.0",
+    "description": "Atom (Samsung TinyClick-derived, ~0.27B parameters, 4-bit MLX) - single-pass grounding, 1 model call/example. Author-reported historical predictions; per-sample predictions and provenance public at the linked v1.0.0 evidence release. Reproduced by the maintainer against the official ScreenSpot-v2 ground truth (1,272 examples); no fresh inference. Two-pass ReGround1024 variant listed separately.",
+    "results": {
+      "platform": {
+        "desktop": {
+          "text": 0.8917525773195877,
+          "icon": 0.5214285714285715,
+          "avg": 0.7365269461077845
+        },
+        "mobile": {
+          "text": 0.9137931034482759,
+          "icon": 0.6492890995260664,
+          "avg": 0.8023952095808383
+        },
+        "web": {
+          "text": 0.8547008547008547,
+          "icon": 0.5812807881773399,
+          "avg": 0.7276887871853547
+        }
+      },
+      "overall_avg": 0.7594339622641509
+    }
+  },
+  "Atom (4-bit, ReGround1024)": {
+    "link": "https://github.com/akshatcoder-hash/atom-screenspot-v2/releases/tag/v1.0.0",
+    "description": "Atom (Samsung TinyClick-derived, ~0.27B parameters, 4-bit MLX) - two-pass ReGround1024 crop refinement, 2 model calls/example. Author-reported historical predictions; per-sample predictions and provenance public at the linked v1.0.0 evidence release. Reproduced by the maintainer against the official ScreenSpot-v2 ground truth (1,272 examples); no fresh inference. Single-pass variant listed separately.",
+    "results": {
+      "platform": {
+        "desktop": {
+          "text": 0.9175257731958762,
+          "icon": 0.6142857142857143,
+          "avg": 0.7904191616766467
+        },
+        "mobile": {
+          "text": 0.9,
+          "icon": 0.6208530805687204,
+          "avg": 0.782435129740519
+        },
+        "web": {
+          "text": 0.8632478632478633,
+          "icon": 0.6206896551724138,
+          "avg": 0.7505720823798627
+        }
+      },
+      "overall_avg": 0.7735849056603774
+    }
   }
 }
